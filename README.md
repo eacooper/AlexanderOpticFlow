@@ -1,10 +1,3 @@
-<style type="text/css">
- ul {
-  list-style-type: none;
- }
-</style>
-
-
 # AlexanderOpticFlow
 
 This repository contains data and code to support the manuscript titled "Spatial Biases in Optic-Flow Sampling for Self-Motion Estimation in Natural Environments." Each folder contains data and code (Jupyter notebooks) pertinent to the methods and results reported in the manuscript. 
@@ -14,35 +7,50 @@ Raw video frames and optic flow fields of the self-motion dataset from the zebra
 ## Computational Pipeline
 
 The analysis pipeline is broken into several stages, across the following directories:  
--	CameraCalibration:  
-	-	For image reprojection and linearization  
-	-	code:	plots camera calibration  
-	-	data:	camera calibration parameters, demo images, field site data  
--	GeneralFlowSimulation:	  
-	-	For simulating general flows, evaluating errors  
-	-	code:	run simulation, visualize errors, and error histograms for local and global flow  
-	-	data:	simulated flow errors  
--	LarvalZebraFishBehavior:  
-	-	For showing large-field zebrafish OMR response  
-	-	code: 	plot tailbeat responses to stimuli  
-	-	data:	tailbeats collected in behavioral experiment  
--	CalculateFlows:  
-	-	For measuring optic flow from our natural underwater video dataset  
-	-	code: 	calculates optic flow with 2 methods  
-	-	data:	relies on image dataset and generates flows (see [dataset](10.5281/zenodo.6604547))  
--	NaturalFlowModel:  
-	-	For describing sparsity and noise in natural underwater optic flow  
-	-	code:	fits noise models to flows  
-	-	data:	relies on calculated flows (see [dataset](10.5281/zenodo.6604547))  
--	NaturalFlowSimulation:  
-	-	For evaluating self motion estimation on zebrafish naturalistic optic flow  
-	-	code: 	run simulation and visualize errors for local and global flow  
-	-	data:	simulated flow errors  
--	NaturalFlowDirect:  
-	-	For evaluating self motion estimation directly on natural underwater optic flow dataset  
-	-	code:	estimate self motion from video samples, compare to simulation and behavior  
-	-	data:	relies on calculated flows (see [dataset](10.5281/zenodo.6604547))  
-		
+<ul style="list-style-type:none;">
+<li>	CameraCalibration:
+<ul style="list-style-type:none;">  
+	<li>	For image reprojection and linearization  
+	<li>	code:	plots camera calibration  
+	<li>	data:	camera calibration parameters, demo images, field site data  
+</ul>
+<li>	GeneralFlowSimulation:	  
+<ul style="list-style-type:none;">  
+	<li>	For simulating general flows, evaluating errors  
+	<li>	code:	run simulation, visualize errors, and error histograms for local and global flow  
+	<li>	data:	simulated flow errors 
+</ul> 
+<li>	LarvalZebraFishBehavior:
+<ul style="list-style-type:none;">    
+	<li>	For showing large-field zebrafish OMR response  
+	<li>	code: 	plot tailbeat responses to stimuli  
+	<li>	data:	tailbeats collected in behavioral experiment
+</ul>  
+<li>	CalculateFlows:
+<ul style="list-style-type:none;">    
+	<li>	For measuring optic flow from our natural underwater video dataset  
+	<li>	code: 	calculates optic flow with 2 methods  
+	<li>	data:	relies on image dataset and generates flows (see [dataset](10.5281/zenodo.6604547)) 
+</ul> 
+<li>	NaturalFlowModel: 
+<ul style="list-style-type:none;">   
+	<li>	For describing sparsity and noise in natural underwater optic flow  
+	<li>	code:	fits noise models to flows  
+	<li>	data:	relies on calculated flows (see [dataset](10.5281/zenodo.6604547))  
+</ul>
+<li>	NaturalFlowSimulation: 
+<ul style="list-style-type:none;">   
+	<li>	For evaluating self motion estimation on zebrafish naturalistic optic flow  
+	<li>	code: 	run simulation and visualize errors for local and global flow  
+	<li>	data:	simulated flow errors  
+</ul>
+<li>	NaturalFlowDirect:  
+<ul style="list-style-type:none;">  
+	<li>	For evaluating self motion estimation directly on natural underwater optic flow dataset  
+	<li>	code:	estimate self motion from video samples, compare to simulation and behavior  
+	<li>	data:	relies on calculated flows (see [dataset](10.5281/zenodo.6604547))  
+</ul>
+</ul>
 
 ## Generating Figures
 
