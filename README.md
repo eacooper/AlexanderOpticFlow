@@ -2,7 +2,7 @@
 
 This repository contains data and code to support the manuscript titled "Spatial Biases in Optic-Flow Sampling for Self-Motion Estimation in Natural Environments." Each folder contains data and code (Jupyter notebooks) pertinent to the methods and results reported in the manuscript. 
 
-Raw video frames and optic flow fields of the self-motion dataset from the zebrafish habitat can be downloaded [here](10.5281/zenodo.6604547).
+Raw video frames and optic flow fields of the self-motion dataset from the zebrafish habitat can be downloaded [here](https://zenodo.org/record/6604547).
 
 ## Computational Pipeline
 
@@ -81,11 +81,11 @@ For an illustration of each field site and a schematic of the robotic arm used t
 ## Versions
 
 The notebooks have been confirmed to work with the following Python version and library versions:  
--python		 : 3.8.8  
--jupyter-notebook : 6.3.0  
--ipython          : 7.22.0  
--numpy		 : 1.20.1  
--cv2		 : 4.0.1  
--matplotlib	 : 3.3.4  
--scipy		 : 1.6.2  
--pandas		 : 1.2.4  
+- python		 : 3.8.8  
+- jupyter-notebook : 6.3.0  
+- ipython          : 7.22.0  
+- numpy		 : 1.20.1  
+- cv2		 : 4.0.1  
+- matplotlib	 : 3.3.4  
+- scipy		 : 1.6.2  
+- 	pandas		 : 1.2.4  
