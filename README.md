@@ -17,13 +17,13 @@ The analysis pipeline is broken into several stages, across the following direct
 <li>	GeneralFlowSimulation:	  
 <ul style="list-style-type:none;">  
 	<li>	For simulating general flows, evaluating errors  
-	<li>	code:	run simulation, visualize errors, and error histograms for local and global flow  
+	<li>	code:	runs simulation, visualize self motion estimation errors (as heatmaps), and computes error histograms for local and global flow  
 	<li>	data:	simulated flow errors 
 </ul> 
 <li>	LarvalZebraFishBehavior:
 <ul style="list-style-type:none;">    
 	<li>	For showing large-field zebrafish OMR response  
-	<li>	code: 	plot tailbeat responses to stimuli  
+	<li>	code: 	plots tailbeat responses to stimuli  
 	<li>	data:	tailbeats collected in behavioral experiment
 </ul>  
 <li>	CalculateFlows:
@@ -41,13 +41,13 @@ The analysis pipeline is broken into several stages, across the following direct
 <li>	NaturalFlowSimulation: 
 <ul style="list-style-type:none;">   
 	<li>	For evaluating self motion estimation on zebrafish naturalistic optic flow  
-	<li>	code: 	run simulation and visualize errors for local and global flow  
+	<li>	code: 	runs simulation and visualizes errors for local and global flow  
 	<li>	data:	simulated flow errors  
 </ul>
 <li>	NaturalFlowDirect:  
 <ul style="list-style-type:none;">  
 	<li>	For evaluating self motion estimation directly on natural underwater optic flow dataset  
-	<li>	code:	estimate self motion from video samples, compare to simulation and behavior  
+	<li>	code:	estimates self motion from video samples, compares to simulation and behavior  
 	<li>	data:	relies on calculated flows (see [dataset](10.5281/zenodo.6604547))  
 </ul>
 </ul>
