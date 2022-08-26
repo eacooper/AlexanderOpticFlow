@@ -30,13 +30,13 @@ The analysis pipeline is broken into several stages, across the following direct
 <ul style="list-style-type:none;">    
 	<li>	For measuring optic flow from our natural underwater video dataset  
 	<li>	code: 	calculates optic flow with 2 methods  
-	<li>	data:	relies on image dataset and generates flows (see [dataset](https://zenodo.org/record/6604547)) 
+	<li>	data:	relies on image dataset and generates flows (see [dataset](https://zenodo.org/record/6604547) ) 
 </ul> 
 <li>	NaturalFlowModel: 
 <ul style="list-style-type:none;">   
 	<li>	For describing sparsity and noise in natural underwater optic flow  
 	<li>	code:	fits noise models to flows  
-	<li>	data:	relies on calculated flows (see [dataset](https://zenodo.org/record/6604547))  
+	<li>	data:	relies on calculated flows (see [dataset](https://zenodo.org/record/6604547) )  
 </ul>
 <li>	NaturalFlowSimulation: 
 <ul style="list-style-type:none;">   
