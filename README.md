@@ -50,6 +50,11 @@ The analysis pipeline is broken into several stages, across the following direct
 	<li>	code:	estimates self motion from video samples, compares to simulation and behavior  
 	<li>	data:	relies on calculated flows (see <a href="http://google.com](https://zenodo.org/record/6604547">dataset</a>)  
 </ul>
+<li>	TiffStackTutorial:  
+<ul style="list-style-type:none;">  
+	<li>	A tutorial for equirectangular projection, luminance conversion, and saving tiff stacks
+</ul>
+</ul>
 </ul>
 
 ## Generating Figures
